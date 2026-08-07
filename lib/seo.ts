@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const SITE_NAME = "LuxeNest";
-export const SITE_URL = "https://www.luxenest.com";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.luxenest.com";
 export const SITE_DESCRIPTION =
   "LuxeNest is a premium shopping guide for fashion, handbags, jewelry, beauty, and home decor — curated edits and honest reviews for shoppers in the US, UK, Canada, and Australia.";
 
