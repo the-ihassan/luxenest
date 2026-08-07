@@ -62,6 +62,9 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  verification: {
+    pinterest: "48047a7e6de4e238c88b84cfeb8f610a",
+  },
 };
 
 const organizationSchema = {
