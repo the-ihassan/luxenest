@@ -34,6 +34,7 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://the-ihassan.github.io/luxenest
+          BASE_PATH: /luxenest
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
