@@ -59,6 +59,13 @@ All product and article data lives in `lib/data.ts`. To add a product, append to
 
 ## Deployment
 
+### GitHub Pages
+This project now supports static export for GitHub Pages. Push the repository to GitHub, then enable GitHub Actions as the Pages source in the repository Settings > Pages.
+
+The workflow in [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) will build and publish the site automatically from the main branch.
+
+Before the first deployment, update the GitHub Pages URL in the workflow file to your actual repository URL.
+
 ### Vercel
 Import the repo at vercel.com/new — the `vercel.json` config is already set. No environment variables are required for the base template.
 
